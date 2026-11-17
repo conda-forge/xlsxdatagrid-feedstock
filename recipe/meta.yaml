@@ -1,13 +1,13 @@
 {% set name = "xlsxdatagrid" %}
-{% set version = "0.3.4" %}
+{% set version = "0.3.5" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/xlsxdatagrid-{{ version }}.tar.gz
-  sha256: a06f56c0cf4fd20fbe698621cc6bd8b9756adaad03e5da5674be5149a36b9b05
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/xlsxdatagrid-{{ version }}.tar.gz
+  sha256: 8530ce849fbf6dd591bbe576c1cfc6694d1b43e76174450a83afb0d91c991d26
 
 build:
   noarch: python
